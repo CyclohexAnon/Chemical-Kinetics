@@ -5,6 +5,8 @@ Created on Thu Apr 10 10:40:12 2025
 @author: CyclohexAnon
 """
 
+import numpy as np
+
 def parse_reactions(text):
     substances = []
     for i in text.split("\n"):
