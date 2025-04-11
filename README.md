@@ -6,4 +6,4 @@ The reactions are inputted as a string separated by a newline character `\n`. Th
 
 The rate constants are specified in the order of the given reactions and are taken to be in their usual units.
 
-The initial concentrations are given for the substances in their order of appearance in the reactions, so if the reactions are `"C + B = 2 A\n2 A = B+ C"`, the initial concentrations are also assumed to be in the order `C, B, A`.
+The initial concentrations are given for the substances in their order of appearance in the reactions, so if the reactions are `"C + B = 2 A\n2 A = B + C"`, the initial concentrations are also assumed to be in the order `C, B, A`.

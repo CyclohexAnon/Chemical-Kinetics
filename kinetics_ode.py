@@ -14,7 +14,7 @@ import util
 # User input
 stoic, substances = util.parse_reactions("B + A = C\nC + A = D\nD + A = E")
 ratec = np.array([3e-4, 2e-4, 1e-4], dtype='float')  # rate constants
-initial_concentrations = np.array([1, 2.0, 0, 0, 0], dtype='float')  # initial concentrations
+initial_concentrations = np.array([1, 1.9, 0, 0, 0], dtype='float')  # initial concentrations
 t_span = (0, 50000)
 t_eval = np.linspace(*t_span, 1000)  # save 1000 points for plotting
 
